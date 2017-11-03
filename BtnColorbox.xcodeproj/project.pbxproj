@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		513433561FAC7F4F00876528 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 513433551FAC7F4F00876528 /* main.m */; };
+		513433591FAC7F4F00876528 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 513433581FAC7F4F00876528 /* AppDelegate.m */; };
+		5134335C1FAC7F4F00876528 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5134335B1FAC7F4F00876528 /* ViewController.m */; };
+		5134335F1FAC7F4F00876528 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5134335D1FAC7F4F00876528 /* Main.storyboard */; };
+		513433611FAC7F4F00876528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 513433601FAC7F4F00876528 /* Assets.xcassets */; };
+		513433641FAC7F4F00876528 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 513433621FAC7F4F00876528 /* LaunchScreen.storyboard */; };
+		5134336F1FAC7F5000876528 /* BtnColorboxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5134336E1FAC7F5000876528 /* BtnColorboxTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5134336B1FAC7F5000876528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 513433491FAC7F4F00876528 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 513433501FAC7F4F00876528;
+			remoteInfo = BtnColorbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		513433511FAC7F4F00876528 /* BtnColorbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BtnColorbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		513433551FAC7F4F00876528 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		513433571FAC7F4F00876528 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		513433581FAC7F4F00876528 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5134335A1FAC7F4F00876528 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5134335B1FAC7F4F00876528 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5134335E1FAC7F4F00876528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		513433601FAC7F4F00876528 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		513433631FAC7F4F00876528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		513433651FAC7F5000876528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5134336A1FAC7F5000876528 /* BtnColorboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BtnColorboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5134336E1FAC7F5000876528 /* BtnColorboxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BtnColorboxTests.m; sourceTree = "<group>"; };
+		513433701FAC7F5000876528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5134334E1FAC7F4F00876528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513433671FAC7F5000876528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		513433481FAC7F4F00876528 = {
+			isa = PBXGroup;
+			children = (
+				513433531FAC7F4F00876528 /* BtnColorbox */,
+				5134336D1FAC7F5000876528 /* BtnColorboxTests */,
+				513433521FAC7F4F00876528 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		513433521FAC7F4F00876528 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				513433511FAC7F4F00876528 /* BtnColorbox.app */,
+				5134336A1FAC7F5000876528 /* BtnColorboxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		513433531FAC7F4F00876528 /* BtnColorbox */ = {
+			isa = PBXGroup;
+			children = (
+				513433571FAC7F4F00876528 /* AppDelegate.h */,
+				513433581FAC7F4F00876528 /* AppDelegate.m */,
+				5134335A1FAC7F4F00876528 /* ViewController.h */,
+				5134335B1FAC7F4F00876528 /* ViewController.m */,
+				5134335D1FAC7F4F00876528 /* Main.storyboard */,
+				513433601FAC7F4F00876528 /* Assets.xcassets */,
+				513433621FAC7F4F00876528 /* LaunchScreen.storyboard */,
+				513433651FAC7F5000876528 /* Info.plist */,
+				513433541FAC7F4F00876528 /* Supporting Files */,
+			);
+			path = BtnColorbox;
+			sourceTree = "<group>";
+		};
+		513433541FAC7F4F00876528 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				513433551FAC7F4F00876528 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5134336D1FAC7F5000876528 /* BtnColorboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				5134336E1FAC7F5000876528 /* BtnColorboxTests.m */,
+				513433701FAC7F5000876528 /* Info.plist */,
+			);
+			path = BtnColorboxTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		513433501FAC7F4F00876528 /* BtnColorbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 513433731FAC7F5000876528 /* Build configuration list for PBXNativeTarget "BtnColorbox" */;
+			buildPhases = (
+				5134334D1FAC7F4F00876528 /* Sources */,
+				5134334E1FAC7F4F00876528 /* Frameworks */,
+				5134334F1FAC7F4F00876528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BtnColorbox;
+			productName = BtnColorbox;
+			productReference = 513433511FAC7F4F00876528 /* BtnColorbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		513433691FAC7F5000876528 /* BtnColorboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 513433761FAC7F5000876528 /* Build configuration list for PBXNativeTarget "BtnColorboxTests" */;
+			buildPhases = (
+				513433661FAC7F5000876528 /* Sources */,
+				513433671FAC7F5000876528 /* Frameworks */,
+				513433681FAC7F5000876528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5134336C1FAC7F5000876528 /* PBXTargetDependency */,
+			);
+			name = BtnColorboxTests;
+			productName = BtnColorboxTests;
+			productReference = 5134336A1FAC7F5000876528 /* BtnColorboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		513433491FAC7F4F00876528 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "瞿嘉洪";
+				TargetAttributes = {
+					513433501FAC7F4F00876528 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					513433691FAC7F5000876528 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 513433501FAC7F4F00876528;
+					};
+				};
+			};
+			buildConfigurationList = 5134334C1FAC7F4F00876528 /* Build configuration list for PBXProject "BtnColorbox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 513433481FAC7F4F00876528;
+			productRefGroup = 513433521FAC7F4F00876528 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				513433501FAC7F4F00876528 /* BtnColorbox */,
+				513433691FAC7F5000876528 /* BtnColorboxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5134334F1FAC7F4F00876528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				513433641FAC7F4F00876528 /* LaunchScreen.storyboard in Resources */,
+				513433611FAC7F4F00876528 /* Assets.xcassets in Resources */,
+				5134335F1FAC7F4F00876528 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513433681FAC7F5000876528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5134334D1FAC7F4F00876528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5134335C1FAC7F4F00876528 /* ViewController.m in Sources */,
+				513433591FAC7F4F00876528 /* AppDelegate.m in Sources */,
+				513433561FAC7F4F00876528 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513433661FAC7F5000876528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5134336F1FAC7F5000876528 /* BtnColorboxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5134336C1FAC7F5000876528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 513433501FAC7F4F00876528 /* BtnColorbox */;
+			targetProxy = 5134336B1FAC7F5000876528 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5134335D1FAC7F4F00876528 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5134335E1FAC7F4F00876528 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		513433621FAC7F4F00876528 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				513433631FAC7F4F00876528 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		513433711FAC7F5000876528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		513433721FAC7F5000876528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		513433741FAC7F5000876528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BtnColorbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mr.Qu.BtnColorbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		513433751FAC7F5000876528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BtnColorbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mr.Qu.BtnColorbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		513433771FAC7F5000876528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BtnColorboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mr.Qu.BtnColorboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BtnColorbox.app/BtnColorbox";
+			};
+			name = Debug;
+		};
+		513433781FAC7F5000876528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BtnColorboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mr.Qu.BtnColorboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BtnColorbox.app/BtnColorbox";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5134334C1FAC7F4F00876528 /* Build configuration list for PBXProject "BtnColorbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				513433711FAC7F5000876528 /* Debug */,
+				513433721FAC7F5000876528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		513433731FAC7F5000876528 /* Build configuration list for PBXNativeTarget "BtnColorbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				513433741FAC7F5000876528 /* Debug */,
+				513433751FAC7F5000876528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		513433761FAC7F5000876528 /* Build configuration list for PBXNativeTarget "BtnColorboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				513433771FAC7F5000876528 /* Debug */,
+				513433781FAC7F5000876528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 513433491FAC7F4F00876528 /* Project object */;
+}
